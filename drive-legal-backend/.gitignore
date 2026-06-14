@@ -1,0 +1,10 @@
+# Ignore absolutely everything in this folder by default
+/*
+
+# Make explicit exceptions for your two project folders
+!/drive-legal-app/
+!/drive-legal-backend/
+
+# Keep blocking node_modules and secrets inside those folders
+**/node_modules/
+**/.env
